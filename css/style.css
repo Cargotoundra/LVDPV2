@@ -166,6 +166,12 @@ h6 {
   line-height: 28px;
 }
 
+.color-blue {
+    background-image: linear-gradient(to right,rgb(3,204,255),rgb(53 17 112));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;}
+
 /*===== Container =====*/
 .container {
   max-width: 1400px;
@@ -627,12 +633,12 @@ Section Title
   position: absolute;
   top: 0%;
   left: 0%;
-  background: var(--primary-color);
+  background: linear-gradient(to right,rgb(3,204,255),rgb(53 17 112));;
   height: 100%;
   width: 100%;
   z-index: -1;
   transition: opacity 200ms linear;
-  background: var(--primary-color);
+  background: linear-gradient(to right,rgb(3,204,255),rgb(53 17 112));;
 }
 .pq-section-title .pq-title-heading span svg path {
   stroke-dasharray: 8px, 12px;
