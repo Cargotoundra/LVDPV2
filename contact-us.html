@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Vallée Des Pros</title>
+    <link rel="shortcut icon" href="images/1.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="fonts/flaticons/flaticon_conference.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="css/animations.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+
+<body>
+    <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="ti-angle-up"></i></a>
+    </div>
+
+    <header class="pq-header-style-1 pq-has-sticky" id="pq-header">
+        <div class="pq-bottom-header ">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/1.png" alt="nav-logo" class="nav-logo">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="pq-menu-contain">
+                            <ul class="navbar-nav" id="pq-main-menu">
+                                <li class="menu-item current-menu-item">
+                                    <a href="index-2.html">Accueil</a>
+                                </li>
+                                <li class="menu-item current-menu-item">
+                                    <a href="annuaire.html">Groupes</a>
+                                </li>
+                                <li class="menu-item current-menu-item">
+                                    <a href="event-list.html">Agenda</a>
+                                </li>
+                                <li class="menu-item current-menu-item">
+                                    <a href="temoignages.html">Témoignages</a>
+                                </li>
+                                <li class="menu-item current-menu-item">
+                                    <a href="about-us.html">Notre histoire</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pq-header-right  ">
+                        <div class="pq-btn-container">
+                            <a href="contact-us.html" class="pq-button pq-button-flat">
+                                <span>Nous rejoindre</span>
+                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                    preserveAspectRatio="none">
+                                    <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
+                                        vector-effect="non-scaling-stroke" stroke-dasharray="400"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="pq-breadcrumb-style-1 wow fadeIn">
+        <div class="container-fluid">
+            <div class="pq-breadcrumb">
+                <h1 class="pq-breadcrumb-title text-center">Nous rejoindre</h1>
+            </div>
+        </div>
+    </section>
+    <section class="pq-contactus-page pt-2">
+        <div class="pq-contact-page-3">
+            <div class="container">
+
+                <div class="pq-contact-section-wrapper">
+                    <div class="pq-contact-box-div wow fadeInLeft ">
+                        <div class="pq-contact-left-box">
+                            <div class="">
+                                <p>Faites partie d'une communauté qui va au-delà des transactions, qui valorise
+                                    l'humain, l'authenticité et l'innovation. Dans la Vallée des Pros, chaque membre est
+                                    une pièce essentielle d'un puzzle plus grand. Ensemble, redéfinissons le monde des
+                                    affaires.</p>
+                                <img src="images/LVDP-Accueil.png" alt="img" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pq-form-wrapper wow fadeInRight  ">
+                        <div class="pq-section-title text-left">
+                        </div>
+                        <div class="pq-contact-form">
+                            <form method="POST" action="/traitement-groupe">
+                                <div class="row">
+                                    <!-- Nom -->
+                                    <div class="col-md-6">
+                                        <div class="pq-form-input-div">
+                                            <input type="text" name="nom" placeholder="Nom" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Prénom -->
+                                    <div class="col-md-6">
+                                        <div class="pq-form-input-div">
+                                            <input type="text" name="prenom" placeholder="Prénom" required>
+                                        </div>
+                                    </div>
+                                    <!-- Téléphone -->
+                                    <div class="col-md-6">
+                                        <div class="pq-form-input-div">
+                                            <input type="tel" name="telephone" placeholder="Téléphone" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="col-md-6">
+                                        <div class="pq-form-input-div">
+                                            <input type="email" name="email" placeholder="Adresse e-mail" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Profession -->
+                                    <div class="col-md-12">
+                                        <div class="pq-form-input-div">
+                                            <input type="text" name="profession" placeholder="Profession" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Sélection du groupe (liste déroulante) -->
+                                    <div class="col-md-12 pb-4">
+                                        <div class="pq-form-input-div">
+                                            <select name="groupe" class="form-select" required>
+                                                <option value="" selected disabled>Choisissez un groupe</option>
+                                                <option value="Groupe A">Groupe A</option>
+                                                <option value="Groupe B">Groupe B </option>
+                                                <option value="Groupe C">Groupe C </option>
+                                                <option value="Groupe D">Groupe D </option>
+                                                <option value="Groupe E">Groupe E </option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Message -->
+                                    <div class="col-md-12">
+                                        <div class="pq-form-input-div">
+                                            <textarea name="message" rows="6"
+                                                placeholder="Votre message (facultatif)"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <!-- Bouton d’envoi -->
+                                    <div class="col-md-12">
+                                        <div class="pq-btn-container">
+                                            <button type="submit" class="pq-button pq-button-flat">
+                                                <span>Rejoindre le groupe</span>
+                                                <svg class="svg" height="100%" width="100%" viewBox="0 0 100 100"
+                                                    preserveAspectRatio="none">
+                                                    <path d="M0 0 H 100 V 100 H 00 Z" fill="transparent" stroke="black"
+                                                        vector-effect="non-scaling-stroke" stroke-dasharray="400">
+                                                    </path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pq-footer-page-2">
+        <div class="pq-mid-footer pt-2">
+            <div class="container">
+                <div class="pq-mid-footer-wrapper">
+
+                    <div class="mid-footer-wrapper-left">
+                        <div class="mid-image-div">
+                            <img src="images/3.png" alt="img" class="pq-footer-logo">
+                        </div>
+                        <ul class="list-inline m-0 p-0">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/" target="_blank" class="text-dark fs-4">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/" target="_blank" class="text-dark fs-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="text-dark fs-4">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mid-footer-conference-wrapper">
+                        <h5>Liens rapides</h5>
+                        <div class="mid-footer-about-list">
+                            <ul>
+                                <li class="about-list"> <a href="about-us.html">Notre histoire</a> </li>
+                                <li class="about-list"> <a href="event-list.html">Agenda</a></li>
+                                <li class="about-list"> <a href="annuaire.html">Groupes</a> </li>
+                                <li class="about-list"> <a href="contact-us.html">Nous contactez</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mid-right-footer-wrapper">
+                        <div class="right-footer-conference">
+                            <h5> NEWSLETTER</h5>
+                            <p>Ne manquez pas nos actus !</p>
+                        </div>
+                        <form>
+                            <input type="email" placeholder="Votre adresse email">
+                            <div class="footer-pq-right-btn">
+                                <a href="#" class="pq-right-button"><i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
