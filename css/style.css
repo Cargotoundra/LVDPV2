@@ -487,6 +487,8 @@ Button Core
   overflow: hidden;
   transition: var(--transition);
   z-index: 9;
+  border-radius:30px;
+  
 }
 
 .pq-button span {
@@ -497,7 +499,7 @@ Button Core
 .pq-button:hover,
 .pq-button:focus {
   color: var(--white-color);
-  background: var(--dark-color);
+  background: linear-gradient(to right,rgb(3,204,255),rgb(53 17 112));
 }
 
 /*===== Button link =====*/
@@ -3959,10 +3961,10 @@ header#pq-header .pq-top-header .pq-header-social ul li:last-child {
 }
 /*============Logo============*/
 header#pq-header .pq-bottom-header .navbar .navbar-brand {
-  line-height: 75px;
+  line-height: 65px;
 }
 header#pq-header .pq-bottom-header .navbar .navbar-brand img {
-  height: 55px;
+  height: 65px;
   border-radius: 0;
   width: auto;
 }
@@ -8323,6 +8325,7 @@ Custom class
   .homepage2 .pq-banner-wrapper {
     gap: 0;
     grid-template-columns: 1fr;
+    align-items: center;
   }
   .homepage2 .pq-banner-wrapper .pq-banner-info-2 .pq-image-box img {
     transform: rotate(0);
@@ -8692,7 +8695,7 @@ Custom class
 
 
 .bg-violet {
-    background-color: #f3ecff;
+    background-color: #f3ecff !important;
     padding: 20px;
 }
 
@@ -8716,4 +8719,13 @@ Custom class
 .text-primary{
   color: #243879 !important;
   padding-bottom: 10px;
+}
+
+.rounded-30 {
+  border-radius: 30px;
+}
+
+.img-club {
+  width: 300px ;
+  height: 300px ;
 }
