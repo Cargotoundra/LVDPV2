@@ -8751,8 +8751,8 @@ Custom class
 }
 
 .pq-designer-info-box.bg-violet {
-  background-color: #6a1b9a; /* ton violet */
-  background-image: url(/images/PICTO-19.png);
+  
+  background-image: url(../images/PICTO-19.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 180px auto;
