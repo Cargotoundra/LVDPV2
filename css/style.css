@@ -704,17 +704,21 @@ section
 }
 @media (max-width: 1199px) {
   section {
-    padding: 90px 0;
+    padding: 90px 10px;
     margin: 0;
   }
 }
 @media (max-width: 767px) {
   section {
     margin: 0 0;
-    padding: 60px 0;
+    padding: 60px 10px;
   }
   .pq-section-gap {
     padding: 60px 0;
+  }
+
+  .pq-testimonial-2{
+    margin: 0px 10px !important;
   }
 }
 
@@ -3153,7 +3157,7 @@ designer-section (event-section)
 }
 
 .pq-title-heading p {
-  font-size: normal;
+  font-size: normal !important;
 }
 
 .pq-title-heading h5{
@@ -3309,6 +3313,15 @@ Event Box
   .pq-title-heading {
     font-size: 42px;
     line-height: 50px;
+  }
+  .pq-title-heading p{
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .pq-title-heading .p-small{
+    font-size: 20px;
+    line-height: 25px;
   }
   .pq-event-box.pq-style-1 {
     display: grid;
@@ -6675,8 +6688,15 @@ OWL Carousel
   height: 100%;
   transition: var(--transition);
 }
+
+.pq-tab-event-box .pq-event-thumb img:hover {
+  height: 100%;
+  transition: var(--transition);
+   transform: rotate(10deg) scale(1) !important;
+}
+
 .pq-tab-event-box:hover .pq-event-thumb img {
-  scale: 1.1;
+  scale: 0.95;
   transition: var(--transition);
 }
 .pq-tab-event-box:hover .pq-event-content .pq-event-title a {
@@ -8444,11 +8464,11 @@ Custom class
 @media (max-width: 1099px) {
   .pq-designer-page-2-wrapper {
     grid-template-columns: 1fr;
-    gap: 0px;
+    gap: 20px;
   }
   .pq-designer-page-2-wrapper {
     grid-template-columns: repeat(1fr);
-    gap: 0px;
+    gap: 20px;
   }
   .pq-designer-page-2-wrapper .pq-image-section-div:nth-of-type(1) {
     order: 2;
@@ -8726,6 +8746,15 @@ Custom class
 }
 
 .img-club {
-  width: 300px ;
+  width: auto;
   height: 300px ;
+}
+
+.pq-designer-info-box.bg-violet {
+  background-color: #6a1b9a; /* ton violet */
+  background-image: url(/images/PICTO-19.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 180px auto;
+  background-blend-mode: multiply;
 }
