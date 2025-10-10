@@ -2320,7 +2320,7 @@ Team
   padding: 0 15px;
   font-family: var(--title-fonts);
   color: var(--secondary-color);
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 2px;
 }
 .owl-carousel {
@@ -2328,32 +2328,17 @@ Team
 }
 .owl-carousel .item .pq-brand-box {
   position: relative;
-  padding: 10px;
-  height: 140px;
+  padding: 15px;
+  height: 180px;
   margin: 8px;
+  background: #f3ecff;
+  border-radius: 20px;
+
 }
 .item .pq-brand-box:hover {
   background-color: var(--primary-color);
 }
-.item .pq-brand-box:not(.svg-animation) .svg path {
-  stroke-dashoffset: 0 !important;
-}
-.item .pq-brand-box:hover.pq-brand-box .pq-svg-dot::after {
-  opacity: 1;
-  transition: all 0.5s ease-in-out;
-}
-.item .pq-brand-box:hover.pq-brand-box .pq-svg-dot::before {
-  opacity: 1;
-  transition: all 0.5s ease-in-out;
-}
-.item .pq-brand-box:hover.pq-brand-box ::after {
-  opacity: 1;
-  transition: all 0.5s ease-in-out;
-}
-.item .pq-brand-box:hover.pq-brand-box ::before {
-  opacity: 1;
-  transition: all 0.5s ease-in-out;
-}
+
 .owl-carousel .item .pq-brand-box:hover .pq-client-hover-img {
   opacity: 1;
   transition: var(--transition);
@@ -3810,12 +3795,12 @@ Service Box
   color: var(--dark-color);
 }
 .pq-contact-box-div {
-  background-color: var(--primary-color);
+  
   padding: 0 15px;
   padding-top: 15px;
   position: relative;
   text-align: center;
-  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 30px;
 }
 .pq-contact-page-3 .pq-contact-box-div .pq-image-box-div img {
   width: 270px;
@@ -3853,7 +3838,7 @@ textarea {
 }
 .pq-contact-page-3 .pq-form-wrapper {
   padding: 45px;
-  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='3' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+border-radius: 30px;
 }
 .pq-contact-page-3 .pq-contact-section-wrapper {
   display: grid;
@@ -6676,10 +6661,16 @@ OWL Carousel
   display: grid;
   grid-template-columns: 2fr 3fr;
   gap: 30px;
-  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23333' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e"); */
   margin: 30px 0 0 0;
   padding: 30px;
+  border-radius: 30px;
+  
 }
+
 .pq-tab-event-box .pq-event-thumb {
   position: relative;
   overflow: hidden;
